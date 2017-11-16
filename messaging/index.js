@@ -5,6 +5,7 @@ var q = require('q');
 var config = require('./config.js');
 var request = require('request');
 
+
 function notifySlack(data) {
 
     var deferred = q.defer();
