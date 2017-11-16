@@ -8,7 +8,6 @@ var request = require('request');
 
 function notifySlack(data) {
 
-
     var deferred = q.defer();
 
     request.post(config.slack.url, {
